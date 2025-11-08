@@ -1,0 +1,122 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 403-778-252
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2025 15:48:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2025 15:48:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\91976\\OneDrive\\Pictures\\Desktop\\ML_PBL\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 403-778-252
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2025 15:53:57] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2025 15:53:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\91976\\OneDrive\\Pictures\\Desktop\\ML_PBL\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 403-778-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\91976\\OneDrive\\Pictures\\Desktop\\ML_PBL\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+2025-10-29 16:02:35,744 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 16:02:35,745 - [33mPress CTRL+C to quit[0m
+2025-10-29 16:02:35,746 -  * Restarting with stat
+2025-10-29 16:02:41,730 -  * Debugger is active!
+2025-10-29 16:02:41,735 -  * Debugger PIN: 403-778-252
+2025-10-29 16:02:59,606 - 127.0.0.1 - - [29/Oct/2025 16:02:59] "GET / HTTP/1.1" 200 -
+2025-10-29 16:03:13,880 - 127.0.0.1 - - [29/Oct/2025 16:03:13] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-10-29 16:04:48,205 - 127.0.0.1 - - [29/Oct/2025 16:04:48] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-10-29 16:05:33,362 - Input: {'Shipping Address': '123 Main St', 'Payment Method': 'Credit Card', 'Account Age Days': 100, 'Device Used': 'Desktop', 'Transaction Amount': 500, 'Transaction Hour': 14, 'Customer Age': 30, 'Billing Address': '123 Main St', 'Product Category': 'Clothing'} | Probability: 0.0479 | Prediction: 0
+2025-10-29 16:05:33,362 - 127.0.0.1 - - [29/Oct/2025 16:05:33] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:06:27,367 - 127.0.0.1 - - [29/Oct/2025 16:06:27] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-10-29 16:10:31,740 - 127.0.0.1 - - [29/Oct/2025 16:10:31] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:11:23,132 - 127.0.0.1 - - [29/Oct/2025 16:11:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:11:23,900 - 127.0.0.1 - - [29/Oct/2025 16:11:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:12:21,989 -  * Detected change in 'c:\\Users\\91976\\OneDrive\\Pictures\\Desktop\\ML_PBL\\main.py', reloading
+2025-10-29 16:12:22,369 -  * Restarting with stat
+2025-10-29 16:14:30,522 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 16:14:30,522 - [33mPress CTRL+C to quit[0m
+2025-10-29 16:14:30,524 -  * Restarting with stat
+2025-10-29 16:14:36,505 -  * Debugger is active!
+2025-10-29 16:14:36,510 -  * Debugger PIN: 403-778-252
+2025-10-29 16:15:28,495 - 127.0.0.1 - - [29/Oct/2025 16:15:28] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:15:28,523 - Input: {'Transaction Amount': 1200, 'Transaction Hour': 2, 'Account Age Days': 30, 'Customer Age': 35, 'Payment Method': 'Credit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '456 Oak Ave '} | Probability: 0.3181 | Prediction: 1
+2025-10-29 16:15:28,524 - 127.0.0.1 - - [29/Oct/2025 16:15:28] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:17:55,533 - 127.0.0.1 - - [29/Oct/2025 16:17:55] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:17:55,550 - Input: {'Transaction Amount': 500, 'Transaction Hour': 2, 'Account Age Days': 30, 'Customer Age': 35, 'Payment Method': 'Credit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.2675 | Prediction: 0
+2025-10-29 16:17:55,550 - 127.0.0.1 - - [29/Oct/2025 16:17:55] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:23:07,157 - 127.0.0.1 - - [29/Oct/2025 16:23:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:23:07,184 - Input: {'Transaction Amount': 2500, 'Transaction Hour': 14, 'Account Age Days': 3000, 'Customer Age': 21, 'Payment Method': 'Bank Transfer', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.9721 | Prediction: 1
+2025-10-29 16:23:07,185 - 127.0.0.1 - - [29/Oct/2025 16:23:07] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:23:20,812 - 127.0.0.1 - - [29/Oct/2025 16:23:20] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:23:20,853 - Input: {'Transaction Amount': 2500, 'Transaction Hour': 14, 'Account Age Days': 3000, 'Customer Age': 21, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.9721 | Prediction: 1
+2025-10-29 16:23:20,854 - 127.0.0.1 - - [29/Oct/2025 16:23:20] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:24:47,965 - 127.0.0.1 - - [29/Oct/2025 16:24:47] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:24:48,002 - Input: {'Transaction Amount': 2500, 'Transaction Hour': 14, 'Account Age Days': 3000, 'Customer Age': 21, 'Payment Method': 'Bank Transfer', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.9721 | Prediction: 1
+2025-10-29 16:24:48,003 - 127.0.0.1 - - [29/Oct/2025 16:24:48] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:24:55,310 - 127.0.0.1 - - [29/Oct/2025 16:24:55] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:24:55,342 - Input: {'Transaction Amount': 2500, 'Transaction Hour': 14, 'Account Age Days': 3000, 'Customer Age': 21, 'Payment Method': 'Credit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.9721 | Prediction: 1
+2025-10-29 16:24:55,343 - 127.0.0.1 - - [29/Oct/2025 16:24:55] "POST /predict HTTP/1.1" 200 -
+2025-10-29 16:25:03,139 - 127.0.0.1 - - [29/Oct/2025 16:25:03] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 16:25:03,184 - Input: {'Transaction Amount': 2500, 'Transaction Hour': 14, 'Account Age Days': 3000, 'Customer Age': 21, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.9721 | Prediction: 1
+2025-10-29 16:25:03,185 - 127.0.0.1 - - [29/Oct/2025 16:25:03] "POST /predict HTTP/1.1" 200 -
+2025-10-29 23:22:17,325 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 23:22:17,325 - [33mPress CTRL+C to quit[0m
+2025-10-29 23:22:17,328 -  * Restarting with stat
+2025-10-29 23:22:26,854 -  * Debugger is active!
+2025-10-29 23:22:26,860 -  * Debugger PIN: 403-778-252
+2025-10-29 23:23:47,917 - 127.0.0.1 - - [29/Oct/2025 23:23:47] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-10-29 23:24:36,019 - 127.0.0.1 - - [29/Oct/2025 23:24:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 23:24:36,090 - Input: {'Transaction Amount': 1000, 'Transaction Hour': 1, 'Account Age Days': 1000, 'Customer Age': 20, 'Payment Method': 'Credit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.1051 | Prediction: 0
+2025-10-29 23:24:36,091 - 127.0.0.1 - - [29/Oct/2025 23:24:36] "POST /predict HTTP/1.1" 200 -
+2025-10-29 23:45:24,688 - 127.0.0.1 - - [29/Oct/2025 23:45:24] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 23:45:24,725 - Input: {'Transaction Amount': 100, 'Transaction Hour': 14, 'Account Age Days': 1000, 'Customer Age': 18, 'Payment Method': 'Bank Transfer', 'Device Used': 'Desktop', 'Product Category': 'Books', 'Shipping Address': '123 main st', 'Billing Address': '123 main st'} | Probability: 0.0006 | Prediction: 0
+2025-10-29 23:45:24,726 - 127.0.0.1 - - [29/Oct/2025 23:45:24] "POST /predict HTTP/1.1" 200 -
+2025-10-29 23:46:26,751 - 127.0.0.1 - - [29/Oct/2025 23:46:26] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-29 23:46:26,788 - Input: {'Transaction Amount': 10000, 'Transaction Hour': 1, 'Account Age Days': 10, 'Customer Age': 35, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': '123 main st', 'Billing Address': '345 oak street'} | Probability: 0.9978 | Prediction: 1
+2025-10-29 23:46:26,789 - 127.0.0.1 - - [29/Oct/2025 23:46:26] "POST /predict HTTP/1.1" 200 -
+2025-10-30 10:55:50,626 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-30 10:55:50,627 - [33mPress CTRL+C to quit[0m
+2025-10-30 10:55:50,630 -  * Restarting with stat
+2025-10-30 10:56:27,729 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-30 10:56:27,730 - [33mPress CTRL+C to quit[0m
+2025-10-30 10:56:27,733 -  * Restarting with stat
+2025-10-30 10:56:35,572 -  * Debugger is active!
+2025-10-30 10:56:35,580 -  * Debugger PIN: 403-778-252
+2025-10-30 10:57:02,736 - 127.0.0.1 - - [30/Oct/2025 10:57:02] "GET / HTTP/1.1" 200 -
+2025-10-30 11:01:04,658 - 127.0.0.1 - - [30/Oct/2025 11:01:04] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-30 11:01:04,706 - Input: {'Transaction Amount': 2000, 'Transaction Hour': 1, 'Account Age Days': 1000, 'Customer Age': 21, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': 'kondhwa', 'Billing Address': 'gondiya'} | Probability: 0.9680 | Prediction: 1
+2025-10-30 11:01:04,707 - 127.0.0.1 - - [30/Oct/2025 11:01:04] "POST /predict HTTP/1.1" 200 -
+2025-10-30 11:03:08,180 - 127.0.0.1 - - [30/Oct/2025 11:03:08] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-30 11:03:08,245 - Input: {'Transaction Amount': 405, 'Transaction Hour': 1, 'Account Age Days': 1000, 'Customer Age': 21, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': 'kondhwa', 'Billing Address': 'kondhwa'} | Probability: 0.0548 | Prediction: 0
+2025-10-30 11:03:08,245 - 127.0.0.1 - - [30/Oct/2025 11:03:08] "POST /predict HTTP/1.1" 200 -
+2025-10-30 14:49:56,568 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-30 14:49:56,569 - [33mPress CTRL+C to quit[0m
+2025-10-30 14:49:56,572 -  * Restarting with stat
+2025-10-30 14:50:04,115 -  * Debugger is active!
+2025-10-30 14:50:04,135 -  * Debugger PIN: 403-778-252
+2025-10-30 14:50:07,987 - 127.0.0.1 - - [30/Oct/2025 14:50:07] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-10-30 14:50:08,094 - 127.0.0.1 - - [30/Oct/2025 14:50:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-30 15:08:08,732 - 127.0.0.1 - - [30/Oct/2025 15:08:08] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-30 15:08:08,793 - Input: {'Transaction Amount': 10001, 'Transaction Hour': 1, 'Account Age Days': 29, 'Customer Age': 35, 'Payment Method': 'Debit Card', 'Device Used': 'Mobile', 'Product Category': 'Electronics', 'Shipping Address': 'kondhwa', 'Billing Address': 'mumbai'} | Probability: 0.9966 | Prediction: 1
+2025-10-30 15:08:08,794 - 127.0.0.1 - - [30/Oct/2025 15:08:08] "POST /predict HTTP/1.1" 200 -
+2025-10-30 15:09:15,617 - 127.0.0.1 - - [30/Oct/2025 15:09:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-30 15:09:15,649 - Input: {'Transaction Amount': 100, 'Transaction Hour': 15, 'Account Age Days': 1000, 'Customer Age': 21, 'Payment Method': 'Credit Card', 'Device Used': 'Desktop', 'Product Category': 'Electronics', 'Shipping Address': 'kondhwa', 'Billing Address': 'kondhwa'} | Probability: 0.0062 | Prediction: 0
+2025-10-30 15:09:15,650 - 127.0.0.1 - - [30/Oct/2025 15:09:15] "POST /predict HTTP/1.1" 200 -
+2025-10-30 15:10:22,103 - 127.0.0.1 - - [30/Oct/2025 15:10:22] "OPTIONS /predict HTTP/1.1" 200 -
+2025-10-30 15:10:22,137 - Input: {'Transaction Amount': 100, 'Transaction Hour': 15, 'Account Age Days': 1000, 'Customer Age': 21, 'Payment Method': 'Credit Card', 'Device Used': 'Desktop', 'Product Category': 'Electronics', 'Shipping Address': 'kondhwa', 'Billing Address': 'kondhwa'} | Probability: 0.0062 | Prediction: 0
+2025-10-30 15:10:22,138 - 127.0.0.1 - - [30/Oct/2025 15:10:22] "POST /predict HTTP/1.1" 200 -
